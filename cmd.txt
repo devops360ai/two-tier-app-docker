@@ -1,1 +1,6 @@
 sudo apt-get update
+git remote set-url origin https://<GITHUB_KEY>@github.com/devops360ai/two-tier-app-docker.git
+git push origin main
+sudo apt-get install docker-compose
+docker ps
+docker-compose up -d
